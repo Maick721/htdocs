@@ -1,0 +1,30 @@
+/*Para la anchura del contenedor y color de la pagina y las letras */
+div{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(9, 126, 81);
+    color: bisque;
+    font-size: 30px;
+}
+
+/*Posicionamiento relativo.- Posiciona la caja en cualquier lugar
+dejando su espacio y nadie puede ocupar ese espacio
+posicionamiento absoluto.- si utilizamos el 
+posicionamiento absoluto el componente se va adesplazar 
+pero su lugar es ocupado por el otro componente*/
+
+.caja_padre{
+    width: 500px;
+    height: 500px;
+    background: black;
+    position: relative;
+}
+.caja{
+    /*position: relative; */
+   /* position: absolute;*/
+   position: fixed;
+    top: 0px;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+}
